@@ -13,10 +13,7 @@ class UserController extends Controller
 {
     //
 
-    public function test()
-    {
 
-    }
 
     
     public function create(){
@@ -63,4 +60,13 @@ class UserController extends Controller
             return back()->withErrors(["login"=>"email or password incorrect"]);
         
     }
+
+
+
+
+
+
+
+
+    
 }
