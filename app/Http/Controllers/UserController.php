@@ -12,6 +12,13 @@ use function PHPUnit\Framework\returnSelf;
 class UserController extends Controller
 {
     //
+
+    public function test()
+    {
+
+    }
+
+    
     public function create(){
         
         return view("users.register");

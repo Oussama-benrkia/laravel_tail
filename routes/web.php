@@ -43,6 +43,19 @@ Route::fallback(function(Response $response){
     return view('error');
 });
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 ///users/login
 
 
